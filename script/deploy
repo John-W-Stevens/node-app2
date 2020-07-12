@@ -2,7 +2,7 @@
 
 ssh -tt root@138.197.222.98 <<EOF
 sudo ufw allow 3001
-cd node-app
+cd node-app2
 git fetch --all
 git reset --hard origin/master
 npm install - production
